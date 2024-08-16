@@ -1,8 +1,8 @@
-README: Pushing Docker Image to Amazon ECR
+**Pushing Docker Image to Amazon ECR**
 Overview
 This guide provides instructions on how to push a Docker image from your local machine to an Amazon Elastic Container Registry (ECR) repository. The necessary infrastructure (EC2 instance and ECR repository) has been set up using Terraform.
 
-Prerequisites
+**Prerequisites**
 Infrastructure:
 
 An EC2 instance created using Terraform.
@@ -57,6 +57,6 @@ Verify that the Docker image is listed in the repository.
 Troubleshooting
 Authentication Issues: Ensure that your AWS CLI is correctly configured with the necessary permissions to access ECR.
 Push Errors: Verify that the image name and tag match what is expected in your ECR repository.
-Summary
+**Summary**
 This guide outlined the steps to push a Docker image from your local machine to an Amazon ECR repository. The infrastructure was set up using Terraform, and the Docker image was managed and uploaded using Docker and AWS CLI commands.
 
